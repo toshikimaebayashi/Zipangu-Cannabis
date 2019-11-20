@@ -1,0 +1,158 @@
+.MainContainer-mv {
+  width: 100%;
+  padding: 220px 0; }
+  .MainContainer-mv .MainContainer-mv-title .MainContainer-mv-title__content {
+    text-align: center;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 107px;
+    font-weight: normal; }
+
+.MainContainer-what {
+  width: 1300px;
+  margin: 100px auto 0;
+  display: flex; }
+  .MainContainer-what .MainContainer-what-img {
+    width: 45%;
+    margin-right: 5%; }
+  .MainContainer-what .MainContainer-what-details {
+    width: 45%;
+    margin-right: 0; }
+    .MainContainer-what .MainContainer-what-details .MainContainer-what-details__title {
+      font-size: 1.9rem;
+      font-weight: normal;
+      letter-spacing: -0.01em;
+      margin-top: 26px;
+      color: #fff;
+      line-height: 1.6; }
+      .MainContainer-what .MainContainer-what-details .MainContainer-what-details__title span {
+        background: #000000;
+        padding: 5px 10px; }
+    .MainContainer-what .MainContainer-what-details .MainContainer-what-details__text {
+      margin-top: 31px;
+      font-size: 1.0rem;
+      line-height: 2.4; }
+    .MainContainer-what .MainContainer-what-details .MainContainer-what-details__message {
+      font-size: 2.1rem;
+      font-weight: bold;
+      margin: 10px 0; }
+    .MainContainer-what .MainContainer-what-details .more {
+      position: relative;
+      margin: 20px 00;
+      width: 195px;
+      height: 52px;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 600; }
+      .MainContainer-what .MainContainer-what-details .more a {
+        display: inline-block;
+        padding: 14px 48px 12px;
+        border: solid #000 1px;
+        vertical-align: top; }
+
+.MainContainer-product {
+  margin-top: 150px; }
+  .MainContainer-product .works-list {
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    padding: 0;
+    overflow: hidden; }
+    .MainContainer-product .works-list .scroll_lst {
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+      margin: 25px 0 25px; }
+      .MainContainer-product .works-list .scroll_lst .scroll_item {
+        display: inline-block;
+        width: 278px;
+        height: 350px;
+        padding: 10px;
+        background-color: #000;
+        margin-right: 15px; }
+        .MainContainer-product .works-list .scroll_lst .scroll_item:first-child {
+          margin-left: 0; }
+        .MainContainer-product .works-list .scroll_lst .scroll_item .scroll_item_inr {
+          display: block; }
+  .MainContainer-product .horizontal_scroll_wrap {
+    overflow-y: hidden; }
+  .MainContainer-product .MainContainer-product-for {
+    display: flex;
+    margin-top: 100px; }
+    .MainContainer-product .MainContainer-product-for .for__people {
+      text-align: center;
+      padding: 150px;
+      position: relative;
+      width: 45%;
+      margin-right: 5%; }
+      .MainContainer-product .MainContainer-product-for .for__people.for__people-professional {
+        background: url("../../images/For_professional.jpg") no-repeat center center;
+        background-size: cover; }
+      .MainContainer-product .MainContainer-product-for .for__people.for__people-chill {
+        background: url("../../images/For_chill.jpg") no-repeat center center;
+        background-size: cover; }
+      .MainContainer-product .MainContainer-product-for .for__people:last-child {
+        margin-right: 0; }
+      .MainContainer-product .MainContainer-product-for .for__people::before {
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        content: ' '; }
+      .MainContainer-product .MainContainer-product-for .for__people .for__people-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        margin: auto;
+        text-align: center;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold; }
+
+.MainContainer-aboutus .about-company__details__inner {
+  padding: 120px 0 100px;
+  max-width: 700px;
+  margin: auto; }
+  .MainContainer-aboutus .about-company__details__inner dl {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.1em;
+    line-height: 2;
+    letter-spacing: .8px; }
+    .MainContainer-aboutus .about-company__details__inner dl dt {
+      width: 30%; }
+    .MainContainer-aboutus .about-company__details__inner dl dd {
+      width: 60%;
+      font-weight: 600;
+      margin-bottom: 30px;
+      transition: .3s; }
+
+.MainContainer-contact {
+  width: 65%;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  box-shadow: 10px 10px;
+  margin: 0 auto 105px; }
+  .MainContainer-contact .contact-wrapper {
+    padding: 30px 0 30px 39px;
+    display: flex; }
+    .MainContainer-contact .contact-wrapper .contact-thumb {
+      background: url(https://ec-force.s3.amazonaws.com/tentialjp/uploads/images/top/bando.jpg);
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      margin: auto; }
+    .MainContainer-contact .contact-wrapper .contact-text__content {
+      flex: 1;
+      margin: auto;
+      text-align: center; }
+      .MainContainer-contact .contact-wrapper .contact-text__content .contact-text__title {
+        letter-spacing: 0.25em;
+        line-height: 22px;
+        color: #000;
+        text-decoration: none;
+        font-size: 24px; }

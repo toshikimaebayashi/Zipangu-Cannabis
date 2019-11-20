@@ -1,0 +1,180 @@
+@media screen and (max-width: 425px) {
+
+  #wraper {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .sp {
+    display: block;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  body {
+    margin: 0 auto;
+    color: #333333;
+    font-family: "Yu Gothic", YuGothic, Verdana, 'Hiragino Kaku Gothic ProN', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', 'メイリオ', Meiryo, sans-serif;
+  }
+
+  .MainContainer-title {
+    font-size: 52px;
+    margin-bottom: 50px;
+  }
+
+  .MainContainer-mv {
+    width: 100%;
+    padding: 200px 0;
+
+    .MainContainer-mv-title {
+      .MainContainer-mv-title__content {
+        text-align: center;
+        font-family: 'Archivo Narrow', sans-serif;
+        font-size: 243px;
+        font-weight: normal;
+        line-height: 1.2;
+
+        .sp {
+          display: block;
+        }
+
+        .eyecatch {
+          width: 94%;
+        }
+      }
+    }
+
+    .MainContainer-mv-btn {
+      width: 100%;
+      margin: 0 auto;
+      display: block;
+      margin-top: 135px;
+
+      .MainContainer-mv-btn__cta {
+        width: 87%;
+        display: block;
+        padding: 0.7em;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-size: 45px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        border: 2px solid #000;
+        transition: .4s;
+        background-color: #000;
+
+        &:last-child {
+          margin: 40px auto;
+        }
+      }
+    }
+  }
+
+  .MainContainer-what {
+    width: 100%;
+    margin: 100px auto 0;
+    display: block;
+
+    .MainContainer-what-img {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .MainContainer-what-details {
+      width: 92%;
+      margin: 0 auto;
+
+      .MainContainer-what-details__title {
+        font-size: 3.0rem;
+        margin: 66px 0;
+        line-height: 2.3;
+
+        span {
+          padding: 20px 30px;
+        }
+      }
+
+      .MainContainer-what-details__text {
+        margin-top: 31px;
+        font-size: 2.6rem;
+        line-height: 1.7;
+      }
+
+      .MainContainer-what-details__message {
+        font-size: 4.5rem;
+        margin: 44px 0;
+        font-weight: bold;
+      }
+
+      .more {
+        font-size: 1.9rem;
+        margin: 40px auto;
+        width: 600px;
+        height: auto;
+
+        a {
+          display: inline-block;
+          padding: 24px 48px 22px;
+          border: solid #000 1px;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+
+  .MainContainer-product {
+    .works-list .scroll_lst .scroll_item {
+      width: 478px;
+      height: 650px;
+    }
+
+    .MainContainer-product-for {
+      display: block;
+
+      .for__people {
+        padding: 250px 0;
+        width: 100%;
+        margin-top: 50px;
+
+        .for__people-text {
+          font-size: 80px;
+        }
+      }
+    }
+  }
+
+  .MainContainer-aboutus .about-company__details__inner {
+    padding: 120px 0 100px;
+    max-width: 900px;
+    margin: auto;
+
+    dl {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 2.1em;
+      line-height: 2;
+      letter-spacing: .8px;
+    }
+  }
+
+  .MainContainer-contact {
+    width: 95%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    box-shadow: 10px 10px;
+    margin: 0 auto 105px;
+
+    .contact-wrapper {
+      padding: 70px 0 70px 39px;
+      display: flex;
+
+      .contact-text__content .contact-text__title {
+        letter-spacing: 0.15em;
+        font-size: 44px;
+      }
+    }
+  }
+}
